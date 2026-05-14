@@ -32,10 +32,10 @@ Para poder generar microservicios en tu computadora, primero debes instalar este
     
 Si deseas crear otro servicio (por ejemplo, ms-ventas), solo debes modificar tres variables al final del comando:
 
--DartifactId=ms-ventas (El nombre de la carpeta y del proyecto)
+* **DartifactId=ms-ventas (El nombre de la carpeta y del proyecto)**
 
--Dpackage=cl.duoc.ventas (El paquete base de Java)
+* **Dpackage=cl.duoc.ventas (El paquete base de Java)**
 
--Dversion=1.0.0 (La versión inicial de tu nuevo desarrollo, opcional)
+* **Dversion=1.0.0 (La versión inicial de tu nuevo desarrollo, opcional)**
 
 Tip: El prefijo --% es exclusivo de PowerShell para evitar conflictos con los parámetros. Si usas CMD (Símbolo del sistema) o bash en Linux/Mac, omite el --%.
