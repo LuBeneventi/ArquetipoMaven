@@ -28,7 +28,8 @@ Para poder generar microservicios en tu computadora, primero debes instalar este
 
 2. Comando de creación de un microservicio:
     mvn --% archetype:generate -DarchetypeCatalog=local -DarchetypeGroupId=cl.duoc -DarchetypeArtifactId=ms-arquetipo-archetype -DarchetypeVersion=0.0.1-SNAPSHOT -DgroupId=cl.duoc -DartifactId=ms-productos -Dversion=1.0.0 -Dpackage=cl.duoc.productos -DinteractiveMode=false
-    Parámetros a personalizar:
+
+Parámetros a personalizar:
     
 Si deseas crear otro servicio (por ejemplo, ms-ventas), solo debes modificar tres variables al final del comando:
 
