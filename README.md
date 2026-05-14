@@ -9,6 +9,10 @@ Asegúrate de tener instalado en tu sistema local:
 * **Apache Maven** (correctamente configurado en las variables de entorno `PATH` y `JAVA_HOME`)
 * **Git**
 
+## Comandos de instalación:
+* **$env:JAVA_HOME="C:\Program Files\Java\jdk-21"**
+* **$env:Path="C:\Program Files\Java\jdk-21\bin;$env:Path"**
+* **$env:Path="C:\Program Files\Apache NetBeans\java\maven\bin;$env:Path"**
 ---
 
 ## 🛠️ 1. Instalación del Arquetipo (Solo la primera vez)
